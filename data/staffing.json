@@ -1,0 +1,137 @@
+[
+  {
+    "req_id": "1",
+    "client": "Infosys",
+    "project": "Cloud Migration",
+    "specialization": "DevOps",
+    "assigned_to": "Ravi",
+    "status": "Open",
+    "start_date": "2026-03-10"
+  },
+  {
+    "req_id": "2",
+    "client": "TCS",
+    "project": "Payment Gateway",
+    "specialization": "Backend",
+    "assigned_to": "Arjun",
+    "status": "In Progress",
+    "start_date": "2026-03-11"
+  },
+  {
+    "req_id": "3",
+    "client": "Wipro",
+    "project": "Kubernetes Setup",
+    "specialization": "DevOps",
+    "assigned_to": "Kiran",
+    "status": "Open",
+    "start_date": "2026-03-12"
+  },
+  {
+    "req_id": "4",
+    "client": "HCL",
+    "project": "Security Audit",
+    "specialization": "Cyber Security",
+    "assigned_to": "Meena",
+    "status": "Closed",
+    "start_date": "2026-03-05"
+  },
+  {
+    "req_id": "5",
+    "client": "Zoho",
+    "project": "CRM Upgrade",
+    "specialization": "Backend",
+    "assigned_to": "Vikram",
+    "status": "In Progress",
+    "start_date": "2026-03-08"
+  },
+  {
+    "req_id": "6",
+    "client": "Amazon",
+    "project": "Infrastructure Automation",
+    "specialization": "DevOps",
+    "assigned_to": "Sneha",
+    "status": "Open",
+    "start_date": "2026-03-09"
+  },
+  {
+    "req_id": "7",
+    "client": "Google",
+    "project": "AI Recommendation Engine",
+    "specialization": "Machine Learning",
+    "assigned_to": "Rahul",
+    "status": "In Progress",
+    "start_date": "2026-03-07"
+  },
+  {
+    "req_id": "8",
+    "client": "Microsoft",
+    "project": "Cloud Security",
+    "specialization": "Cyber Security",
+    "assigned_to": "Priya",
+    "status": "Closed",
+    "start_date": "2026-03-01"
+  },
+  {
+    "req_id": "9",
+    "client": "Flipkart",
+    "project": "Search Optimization",
+    "specialization": "Machine Learning",
+    "assigned_to": "Ajay",
+    "status": "Open",
+    "start_date": "2026-03-13"
+  },
+  {
+    "req_id": "10",
+    "client": "Paytm",
+    "project": "Fraud Detection",
+    "specialization": "Machine Learning",
+    "assigned_to": "Neha",
+    "status": "In Progress",
+    "start_date": "2026-03-14"
+  },
+  {
+    "req_id": "11",
+    "client": "IBM",
+    "project": "Container Platform",
+    "specialization": "DevOps",
+    "assigned_to": "Sanjay",
+    "status": "Open",
+    "start_date": "2026-03-04"
+  },
+  {
+    "req_id": "12",
+    "client": "Adobe",
+    "project": "API Gateway",
+    "specialization": "Backend",
+    "assigned_to": "Divya",
+    "status": "In Progress",
+    "start_date": "2026-03-06"
+  },
+  {
+    "req_id": "13",
+    "client": "Accenture",
+    "project": "Fraud Monitoring",
+    "specialization": "Cyber Security",
+    "assigned_to": "Karthik",
+    "status": "Open",
+    "start_date": "2026-03-02"
+  },
+  {
+    "req_id": "14",
+    "client": "Capgemini",
+    "project": "Microservices Backend",
+    "specialization": "Backend",
+    "assigned_to": "Nisha",
+    "status": "Closed",
+    "start_date": "2026-02-28"
+  },
+  {
+    "req_id": "15",
+    "client": "Oracle",
+    "project": "Model Training Pipeline",
+    "specialization": "Machine Learning",
+    "assigned_to": "Rohit",
+    "status": "In Progress",
+    "start_date": "2026-03-03"
+  }
+]
