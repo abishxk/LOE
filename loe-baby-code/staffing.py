@@ -130,7 +130,6 @@ class StaffingModule:
         obj.client = input("Client: ")
         obj.project = input("Project: ")
 
-        # ================= SPECIALIZATION =================
         specs = ["Backend", "Frontend", "DevOps", "Data Science", "AI/ML", "Cloud", "Security"]
 
         print("\nSelect Specialization:")
@@ -145,7 +144,6 @@ class StaffingModule:
             print("Invalid choice, defaulting to Backend")
             obj.specialization = "Backend"
 
-        # ================= STATUS =================
         statuses = ["Open", "In Progress", "Closed"]
 
         print("\nSelect Status:")
@@ -160,15 +158,12 @@ class StaffingModule:
             print("Invalid choice, defaulting to Open")
             obj.status = "Open"
 
-        # ================= DATE =================
         obj.projectStartDate = input("Start Date (YYYY-MM-DD): ")
 
         db.add(obj)
         db.commit()
 
         print("Record Added")
-
-        # ================= ACTION REQUIRED =================
 
         if obj.status != "Closed":
             action = ActionRequired()
