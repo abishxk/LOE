@@ -10,20 +10,26 @@ class DashboardModule:
 
         db = self.db_module.get_session()
 
-        res = db.query(KPI).all()
+        data = db.query(StaffingRequest).all()
+        pending = 0
 
-        print("\n===== KPI =====\n")
+        for r in data:
+            if r.status == "Open":
+                pending += 1
 
-        for r in res:
-            print(r.kpiName, ":", r.kpiValue)
+        print("\n===== KPI =====")
+
+        print("LOE In Progress :", 6)  # static
+        print("Pending Staff Assignment :", pending)
+        print("Nearing SLA Breach :", 2)  # static
 
     def loe_graph(self):
 
-        print("\nLOE GRAPH\n")
+        print("\n===== LOE GRAPH =====")
 
-        print("DevOps        | ######")
-        print("Cloud         | #####")
-        print("Security      | ###")
+        print("Backend      | ######")
+        print("Frontend     | #####")
+        print("Cloud        | ###")
 
     def show_action_required(self):
 
@@ -40,15 +46,13 @@ class DashboardModule:
             print(r.reqId, r.client, r.status)
 
     def show_sla_risk(self):
-
-        print("\nSLA Risk Overview")
+        print("\n===== SLA Risk Overview =====\n")
         print("1 All")
         print("2 LOE")
         print("3 Staffing")
 
         choice = input("Enter choice: ")
 
-        # ================= SIMPLE IF ELSE =================
 
         if choice == "1":
             data = {
@@ -74,8 +78,6 @@ class DashboardModule:
         else:
             print("Invalid choice")
             return
-
-        # ================= PRINT =================
 
         print("\nSLA Risk Overview\n")
 
